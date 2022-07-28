@@ -1,0 +1,68 @@
+body {
+    background-color: #bddccc;
+    font-family: 'Nunito', sans-serif;
+}
+
+.lavandas h2 {
+    color: #289d62;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.lavandas p {
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+section div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#mainNavbar .navbar-brand {
+    color: #289d62;
+
+
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #289d62;
+}
+
+#mainNavbar {
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+#mainNavbar a {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#headingGroup span {
+    color: #289d62;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+
+.navbar.scrolled {
+    background: #16693f;
+    transition: 300ms ease-in-out;
+
+}
+
+@media (max-width:1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+}
