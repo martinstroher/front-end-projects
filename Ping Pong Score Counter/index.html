@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Ping Pong score counter! </title>
+    <style>
+        .winner {
+            color: green;
+        }
+
+        .loser {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <div id="first-div">
+            <img
+                src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+
+
+            <h1>Ping Pong Score score counter</h1>
+        </div>
+        <div id="second-div">
+            <div id="content">
+                <span id="score"> <span id="p1Display">0</span> to <span id="p2Display">0</span> </span>
+                <span id="instruction">Use the buttons below to keep score.</span>
+                <label for="select">Playing to</label>
+                <select name="select" id="select">
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+            </div>
+
+            <div id="buttons">
+                <button id="player-one">+1 Player One</button>
+                <button id="player-two">+1 Player Two</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </article>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
