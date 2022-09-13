@@ -1,0 +1,31 @@
+.footer .left-container,
+.footer .right-container {
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer .left-container {
+    align-items: flex-start;
+}
+
+.footer .right-container {
+    align-items: flex-end;
+}
+
+.footer .menu,
+.footer .copyright {
+    width: 150%;
+    margin: 3.5vh 0;
+}
+
+.copyright {
+    font-family: Open sans;
+    font-weight: lighter;
+    text-align: end;
+}
+
+.crescer-logo {
+    margin-top: 2vh;
+}

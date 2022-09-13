@@ -1,0 +1,240 @@
+* {
+    Box-sizing: border-box
+}
+
+.intro {
+    background-image: url(../../../img/img3.png);
+    background-color: black;
+    background-size: cover;
+    height: 60vh;
+}
+
+.container-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+ul .text-2 {
+    list-style: none;
+    font-size: 18px;
+    width: 100%;
+    line-height: 29px;
+    padding-left: 0;
+    position: relative;
+    right: 8%;
+    line-height: 100%;
+}
+
+.text-2 {
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.text-1 {
+    margin: 20px;
+}
+
+.team {
+    height: 70vh;
+}
+
+.team .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch
+}
+
+.member {
+    position: relative;
+    width: fit-content;
+    display: inline-block;
+    margin: 30px;
+}
+
+.member img {
+    width: 100%;
+    height: 100%;
+}
+
+div .member-text {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #515070;
+    opacity: 0%;
+    display: flex;
+    transition: 500ms ease-in-out;
+}
+
+
+
+.member-text:hover {
+    opacity: 60%;
+    transition: 150ms ease-in-out;
+}
+
+.member-text {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    position: absolute;
+    padding: 10px 10px;
+}
+
+.member h3 {
+    font-family: Montserrat;
+    color: white;
+    margin: 2% 0;
+}
+
+.member p {
+    width: 100%;
+}
+
+.member-text .text-2 {
+    margin: 0;
+}
+
+.member:hover {}
+
+.principles {
+    background-color: #F6F6F6;
+    height: 60vh;
+}
+
+.container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.principle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    width: fit-content;
+}
+
+.principle p {
+    text-align: left;
+    width: 8 0%;
+}
+
+.principle-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+p {
+    color: #898989;
+}
+
+@media (max-width: 489px) {
+
+    .header>.menu-control:checked+.menu-mobile {
+        transform: translateY(8%) translateX(-10%);
+    }
+
+    .header>.menu-mobile {
+        display: flex;
+        position: fixed;
+        width: 200px;
+        height: 110vh;
+        margin: 0;
+        z-index: 2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 5vh;
+        background-color: #FFFFFF;
+        transform: translateY(8%) translateX(-150%);
+        transition: 0.5s ease;
+    }
+
+    .member img {
+        width: 100%;
+    }
+
+    .text-2 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-1 {
+        margin: 0;
+    }
+
+    ul .text-2 {
+        position: static;
+        line-height: 3vh;
+    }
+
+    .team {
+        min-height:
+    }
+
+    .team-members {
+        flex-direction: column;
+    }
+
+    .member {
+        width: 100%;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .team .container {
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    .team {
+        min-height: 200vh;
+    }
+
+    .team h2,
+    .team h3 {
+        text-align: left;
+    }
+
+    .team h2 {
+        font-size: 40px;
+    }
+
+    .principles {
+        min-height: 80vh;
+    }
+
+    .principle {
+        padding: 2rem 0;
+
+    }
+
+    .principle p {
+        text-align: left;
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .team {
+        min-height: 240vh;
+    }
+
+    .principles {
+        min-height: 110vh;
+    }
+}

@@ -1,0 +1,36 @@
+.header {
+    margin: 1vh 5% auto;
+}
+
+.menu,
+.menu-mobile {
+    display: flex;
+    list-style: none;
+    font-family: Montserrat;
+    color: #898989;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    height: min-content;
+    align-items: center;
+}
+
+.aspas {
+    background-color: #515070;
+    border: 1vh solid #515070;
+    margin-right: 2vh;
+
+}
+
+.brand-name {
+    list-style: none;
+    font-family: Montserrat;
+    font-weight: bolder;
+    color: #515070;
+    padding: 0;
+    width: 50%;
+}
